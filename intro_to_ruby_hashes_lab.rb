@@ -19,7 +19,11 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, key)
-  
+  if hash[key]
+  {:hash => key}
+else
+  puts "Key not found!"
+end
   # return the correct value using the hash and key parameters
 end
 
