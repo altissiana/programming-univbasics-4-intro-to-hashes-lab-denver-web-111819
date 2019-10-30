@@ -11,7 +11,7 @@ def pioneer
 end
 
 def id_generator
- {:id[0]}
+ {:id => 6}
 end
 
 def my_hash_creator(key, value)
