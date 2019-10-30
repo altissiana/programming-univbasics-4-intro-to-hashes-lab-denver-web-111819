@@ -22,7 +22,7 @@ def read_from_hash(hash, key)
   if hash[key]
   {:hash => key}
 else
-  puts "Key not found!"
+  nil
 end
   # return the correct value using the hash and key parameters
 end
